@@ -204,10 +204,29 @@
     font-size: 15px;
 }
 
-
-
-
-
+/* For social media logo */
+.header-social
+{
+    position: absolute;
+    top: 53%;
+    left: 50px;
+    transform: translateY(-53%);
+    border: 1px solid rgba(0,167,142,0.21);
+    border-radius: 50px;
+}
+.header-social li a 
+{
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    padding: 20px 15px;
+    color: rgba(100,111,135,0.58);
+    transition: all 0.3s ease-out 0s;
+}
+.header-social li a:hover
+{
+    color: var(--main-color);
+}
 
 
 
